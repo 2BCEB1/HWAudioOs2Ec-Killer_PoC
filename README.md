@@ -1,5 +1,5 @@
 # HWAudioOs2Ec-Killer_PoC
-Huntressが公開したインシデントレポートで使用されていたBYOVDに関する調査
+Huntressが公開したインシデントレポートで使用されていたBYOVDに関する調査<br>
 ->https://www.huntress.com/blog/w2-malvertising-to-kernel-mode-edr-kill
 
 # 脆弱なドライバ「HWAudioOs2Ec.sys」の情報
