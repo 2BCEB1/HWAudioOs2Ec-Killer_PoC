@@ -44,7 +44,7 @@
  *   DeviceType  = FILE_DEVICE_UNKNOWN (0x22)
  *   Function    = 0x237  (custom)
  *   Method      = METHOD_BUFFERED (0)
- *   Access      = FILE_ANY_ACCESS (0)
+ *   Access      = FILE_READ_ACCESS (1)
  *
  * SystemBuffer is used (METHOD_BUFFERED)
  * InputBufferLength = 0x4, OutputBufferLength = 0x0
