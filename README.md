@@ -65,7 +65,7 @@ IOCTL = 0x002248DC
 DeviceType  = (0x002248DC >> 16) & 0xFFFF = 0x0022 (FILE_DEVICE_UNKNOWN)
 Function    = (0x002248DC >> 2)  & 0xFFF  = 0x237  (custom)
 Method      = 0x002248DC & 0x3            = 0x0    (METHOD_BUFFERED)
-Access      = (0x002248DC >> 14) & 0x3    = 0x0    (FILE_ANY_ACCESS)
+Access      = (0x002248DC >> 14) & 0x3    = 0x1    (FILE_READ_ACCESS)
 ```
 
 ## Build
