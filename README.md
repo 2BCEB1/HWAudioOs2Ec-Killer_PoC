@@ -26,6 +26,13 @@ Huntressが公開したインシデントレポートで使用されていたBYO
 |入力バッファ内容|ターゲットプロセスのPID (32bit)|
 |出力バッファ|不要 (0x0)|
 
+# ちなみに
+このドライバでのBYOVD攻撃は未知のものではなく、既に公開情報が存在する。<br>
+- https://github.com/R1perXNX/HuaweiKiller/tree/master
+
+これに関係するHuawei公式のアドバイザリ<br>
+https://www.huawei.com/en/psirt/security-advisories/2025/huawei-sa-20250325-01-pc-en
+
 ---
 # HWAudioOs2Ec.sys — Arbitrary Process Termination PoC
 
@@ -42,7 +49,7 @@ This driver has been observed in the wild as a BYOVD (Bring Your Own Vulnerable 
 | **Device** | `\\.\HWAudioX64` |
 | **IOCTL** | `0x2248DC` |
 | **Method** | `METHOD_BUFFERED` (SystemBuffer) |
-| **Access** | `FILE_ANY_ACCESS` — SDDL restricts device to SYSTEM/Administrators |
+| **Access** | `FILE_READ_ACCESS` — SDDL restricts device to SYSTEM/Administrators |
 | **Input** | 4 bytes — target process PID (`DWORD`) |
 | **Impact** | Terminate any process including PPL-protected processes (EDR/AV) |
 
