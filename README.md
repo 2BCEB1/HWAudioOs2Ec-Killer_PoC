@@ -2,6 +2,11 @@
 Huntressが公開したインシデントレポートで使用されていたBYOVDに関する調査<br>
 ->https://www.huntress.com/blog/w2-malvertising-to-kernel-mode-edr-kill
 
+> このPoCは教育および研究目的のみに使用してください。
+> これは、実際のマルウェアキャンペーンで既に観測されている既知の手法
+>（Huntressのレポート、2026年3月 https://www.huntress.com/blog/w2-malvertising-to-kernel-mode-edr-kill ）を実演するものです。
+> 悪意のある目的で使用しないでください。著者は不正使用について一切の責任を負いません。
+
 # 脆弱なドライバ「HWAudioOs2Ec.sys」の情報
 
 |プロパティ|データ|
@@ -35,6 +40,10 @@ https://www.huawei.com/en/psirt/security-advisories/2025/huawei-sa-20250325-01-p
 
 ---
 # HWAudioOs2Ec.sys — Arbitrary Process Termination PoC
+
+> This PoC is for educational and research purposes only.
+> It demonstrates a known technique already observed in real-world malware campaigns (Huntress report, March 2026 https://www.huntress.com/blog/w2-malvertising-to-kernel-mode-edr-kill).
+> Do not use for malicious purposes. Author is not responsible for any misuse.
 
 Proof-of-Concept for an arbitrary process termination vulnerability in the Huawei laptop audio kernel driver **HWAudioOs2Ec.sys**.
 
