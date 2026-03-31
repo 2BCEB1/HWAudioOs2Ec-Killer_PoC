@@ -7,6 +7,9 @@ Huntressが公開したインシデントレポートで使用されていたBYO
 >（Huntressのレポート、2026年3月 https://www.huntress.com/blog/w2-malvertising-to-kernel-mode-edr-kill ）を実演するものです。
 > 悪意のある目的で使用しないでください。著者は不正使用について一切の責任を負いません。
 
+解説<br>
+https://zenn.dev/skybreaker/articles/e2fea6a2e3a62e
+
 # 脆弱なドライバ「HWAudioOs2Ec.sys」の情報
 
 |プロパティ|データ|
